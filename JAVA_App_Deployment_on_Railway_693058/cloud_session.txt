@@ -1,0 +1,61 @@
+1. deploying our spring boot application on cloud :
+Railway cloud:
+
+2. Rest clients : 
+1. RestTemplate
+2. WebClient
+3. OpenFeign
+
+Deploying Spring Boot application to the Railway cloud:
+--------------------------------------------------------------------
+
+step1: develop a spring boot application with all the end points
+and test it on local system.
+
+step2: push that application to the github repository
+
+step 3: open the Railway cloud website and signup 
+
+step 4: create a db instance on the Railway cloud.
+
+Note: optionally we can connect that cloud db with our local mysql client and 
+can choose database "railway" and we can create tables and insert records with
+our choice.
+
+
+
+step 5: get the db environment variables, which we have mentioned inside 
+the application.properties file from the mysql instance variables tab.
+
+
+DB_HOST=containers-us-west-200.railway.app
+DB_NAME=railway
+DB_PORT=7155
+DB_USERNAME=root
+DB_PASSWORD=DwzV0MOysUoBLmCuGa7l
+
+
+step6: create an application inside the Railway cloud from github repository.
+
+Step 7: update all the environment variables accoringly. (it automatically redeploy our application with updated variables)
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
